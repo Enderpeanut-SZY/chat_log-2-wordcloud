@@ -19,7 +19,7 @@ with open("input.txt", "r", encoding="utf-8") as file:
         if current_line_number==locations[pos]:
             pos += 1
             if line.strip() == f"消息对象:{target_string}":
-                print(f"\n消息对象: {target_string} 的消息行数范围为\n{locations[pos-1]}\n至\n{locations[pos]-4}")
+                print(f"\n消息对象: {target_string} 的消息行数范围为\n{locations[pos-1]+2}\n至\n{locations[pos]-4}")
                 found = True
 if not found: print(f"未找到消息对象: {target_string}")
 
