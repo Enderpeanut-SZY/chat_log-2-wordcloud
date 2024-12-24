@@ -62,3 +62,6 @@ pip install -r requirements.txt
 
 在Windows端，使用旧版QQ（不是QQ9），或用TIM，打开聊天记录窗口，点击右下角的"消息管理器"，打开新界面后注意右上角，在"- □ ×"左边有一个向下的三角箭头，点它可以导出你账号下的所有聊天记录，可选`.txt`格式
 
+### 示例
+
+![image text](https://github.com/Enderpeanut-SZY/chat_log-2-wordcloud/blob/main/outputs/wordcloud.png)
