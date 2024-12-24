@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 并用你的聊天记录文件替换`input.txt`，注意**保持所有文件的名称不变**
 
-### .Py文件：
+### .Py文件
 
 **`locate.py`**
 
