@@ -1,6 +1,6 @@
 import re
 
-at_regex = re.compile(r'@[\w.]+\s?')                                                                       # 正则表达式：@+昵称+可有可无空格
+at_regex = re.compile(r'@[^\x20]+\s?')                                                                     # 正则表达式：@+昵称+可有可无空格
 empty_line_regex = re.compile(r'\n\s*\n')                                                                  # 正则表达式：空行
 Strings_to_remove = [line.rstrip() for line in open('paras/strings_to_remove.txt','r', encoding='utf-8')]  # 无效字符串集
 Lines_to_remove = [line.rstrip() for line in open('paras/lines_to_remove.txt','r', encoding='utf-8')]      # 无效行集
