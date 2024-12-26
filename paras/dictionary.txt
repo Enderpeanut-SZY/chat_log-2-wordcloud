@@ -40,3 +40,7 @@ py
 
 锟斤拷
 烫
+int
+cnt
+augment
+print
