@@ -31,7 +31,6 @@ md
 tm
 woc
 nb
-nt
 byd
 ok
 qb
